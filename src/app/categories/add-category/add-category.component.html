@@ -1,0 +1,25 @@
+<br/>
+<br/>
+<br/>
+<div class="container mt-5">
+  <div class="row">
+    <div class="ml-5 col-md-8 order-md-1">
+      <h4 class="mb-3">Add category form</h4>
+
+      <div class="mb-3">
+        <label for="cName">Category Name</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="cName" placeholder="Category Name" [(ngModel)]="category.categoryName">
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="cDesc">Category description</label>
+        <input type="text" class="form-control" id="cDesc" placeholder="Category description" [(ngModel)]="category.description">
+      </div>
+
+      <button class="btn btn-primary btn-lg btn-block mt-3" type="submit" (click)="createCategory()">Create</button>
+
+    </div>
+  </div>
+</div>
