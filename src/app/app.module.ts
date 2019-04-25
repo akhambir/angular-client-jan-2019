@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { CategoryComponent } from './category/category.component';
 import { AddCategoryComponent } from './categories/add-category/add-category.component';
 import {FormsModule} from '@angular/forms';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {FormsModule} from '@angular/forms';
     CategoriesComponent,
     HeaderComponent,
     CategoryComponent,
-    AddCategoryComponent
+    AddCategoryComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
